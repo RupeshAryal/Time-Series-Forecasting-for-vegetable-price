@@ -1,0 +1,44 @@
+commodities,unit,minimum,maximum,average
+
+Tomato Big(Indian),KG,Rs 85.00,Rs 90.00,Rs 88.00
+Tomato Small(Local),KG,Rs 90.00,Rs 100.00,Rs 95.00
+Tomato Small(Tunnel),KG,Rs 90.00,Rs 100.00,Rs 95.00
+Onion Dry (Indian),KG,Rs 135.00,Rs 140.00,Rs 138.00
+Carrot(Local),KG,Rs 180.00,Rs 190.00,Rs 185.00
+Cabbage(Local),KG,Rs 50.00,Rs 55.00,Rs 53.00
+Cauli Local,KG,Rs 90.00,Rs 100.00,Rs 95.00
+Raddish White(Local),KG,Rs 35.00,Rs 40.00,Rs 38.00
+Raddish White(Hybrid),KG,Rs 35.00,Rs 45.00,Rs 40.00
+Brinjal Long,KG,Rs 45.00,Rs 50.00,Rs 48.00
+Cow pea(Long),KG,Rs 40.00,Rs 50.00,Rs 45.00
+Bitter Gourd,KG,Rs 50.00,Rs 55.00,Rs 53.00
+Bottle Gourd,KG,Rs 35.00,Rs 40.00,Rs 38.00
+Pointed Gourd(Local),KG,Rs 75.00,Rs 80.00,Rs 78.00
+Brd Leaf Mustard,KG,Rs 40.00,Rs 50.00,Rs 45.00
+Mushroom(Kanya),KG,Rs 250.00,Rs 280.00,Rs 265.00
+Mushroom(Button),KG,Rs 450.00,Rs 500.00,Rs 475.00
+Apple(Jholey),KG,Rs 240.00,Rs 250.00,Rs 245.00
+Apple(Fuji),KG,Rs 300.00,Rs 320.00,Rs 310.00
+Banana,Per Dozen,Rs 80.00,Rs 90.00,Rs 85.00
+Lime,KG,Rs 120.00,Rs 130.00,Rs 125.00
+Pomegranate,KG,Rs 300.00,Rs 320.00,Rs 310.00
+Orange(Indian),KG,Rs 90.00,Rs 100.00,Rs 95.00
+Pineapple,1 Pc,Rs 150.00,Rs 160.00,Rs 155.00
+Cucumber(Local),KG,Rs 120.00,Rs 140.00,Rs 130.00
+Cucumber(Hybrid),KG,Rs 70.00,Rs 80.00,Rs 75.00
+Pear(Chinese),KG,Rs 240.00,Rs 250.00,Rs 245.00
+Papaya(Indian),KG,Rs 80.00,Rs 90.00,Rs 85.00
+Guava,KG,Rs 70.00,Rs 80.00,Rs 75.00
+Mombin,KG,Rs 55.00,Rs 60.00,Rs 58.00
+Kiwi,KG,Rs 250.00,Rs 300.00,Rs 275.00
+Ginger,KG,Rs 75.00,Rs 85.00,Rs 80.00
+Chilli Dry,KG,Rs 360.00,Rs 380.00,Rs 370.00
+Chilli Green,KG,Rs 170.00,Rs 180.00,Rs 175.00
+Coriander Green,KG,Rs 180.00,Rs 200.00,Rs 190.00
+Garlic Dry Chinese,KG,Rs 165.00,Rs 170.00,Rs 168.00
+Garlic Dry Nepali,KG,Rs 280.00,Rs 300.00,Rs 290.00
+Clive Dry,KG,Rs 350.00,Rs 400.00,Rs 375.00
+Fish Fresh(Rahu),KG,Rs 300.00,Rs 320.00,Rs 310.00
+Fish Fresh(Bachuwa),KG,Rs 200.00,Rs 220.00,Rs 210.00
+Fish Fresh(Chhadi),KG,Rs 210.00,Rs 220.00,Rs 215.00
+Fish Fresh(Mungari),KG,Rs 270.00,Rs 280.00,Rs 275.00

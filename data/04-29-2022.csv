@@ -1,0 +1,100 @@
+commodities,unit,minimum,maximum,average
+
+Tomato Big(Nepali),KG,Rs 60.00,Rs 70.00,Rs 66.67
+Tomato Big(Indian),KG,Rs 60.00,Rs 70.00,Rs 66.67
+Tomato Small(Local),KG,Rs 30.00,Rs 40.00,Rs 35.00
+Tomato Small(Indian),KG,Rs 50.00,Rs 60.00,Rs 55.00
+Tomato Small(Terai),KG,Rs 50.00,Rs 60.00,Rs 55.00
+Potato Red,KG,Rs 28.00,Rs 32.00,Rs 30.00
+Potato Red(Indian),KG,Rs 24.00,Rs 26.00,Rs 25.00
+Onion Dry (Indian),KG,Rs 32.00,Rs 35.00,Rs 33.40
+Carrot(Local),KG,Rs 40.00,Rs 50.00,Rs 45.00
+Cabbage(Local),KG,Rs 40.00,Rs 50.00,Rs 45.00
+Cabbage(Terai),KG,Rs 40.00,Rs 50.00,Rs 45.00
+Cauli Local,KG,Rs 50.00,Rs 70.00,Rs 57.50
+Cauli Local(Jyapu),KG,Rs 60.00,Rs 80.00,Rs 70.00
+Raddish White(Local),KG,Rs 15.00,Rs 20.00,Rs 18.33
+Raddish White(Hybrid),KG,Rs 20.00,Rs 30.00,Rs 25.00
+Brinjal Long,KG,Rs 60.00,Rs 70.00,Rs 66.67
+Brinjal Round,KG,Rs 70.00,Rs 80.00,Rs 76.67
+Cow pea(Long),KG,Rs 50.00,Rs 60.00,Rs 56.67
+Green Peas,KG,Rs 80.00,Rs 100.00,Rs 90.00
+French Bean(Local),KG,Rs 40.00,Rs 60.00,Rs 50.00
+French Bean(Hybrid),KG,Rs 60.00,Rs 80.00,Rs 70.00
+French Bean(Rajma),KG,Rs 70.00,Rs 80.00,Rs 75.00
+Bitter Gourd,KG,Rs 40.00,Rs 50.00,Rs 46.00
+Bottle Gourd,KG,Rs 20.00,Rs 30.00,Rs 25.00
+Pointed Gourd(Local),KG,Rs 70.00,Rs 80.00,Rs 75.00
+Pointed Gourd(Terai),KG,Rs 70.00,Rs 80.00,Rs 76.67
+Snake Gourd,KG,Rs 40.00,Rs 50.00,Rs 46.67
+Smooth Gourd,KG,Rs 30.00,Rs 40.00,Rs 35.00
+Sponge Gourd,KG,Rs 50.00,Rs 60.00,Rs 55.00
+Pumpkin,KG,Rs 40.00,Rs 50.00,Rs 45.00
+Squash(Long),KG,Rs 20.00,Rs 30.00,Rs 25.00
+Squash(Round),KG,Rs 20.00,Rs 30.00,Rs 25.00
+Okara,KG,Rs 50.00,Rs 60.00,Rs 55.00
+Barela,KG,Rs 50.00,Rs 60.00,Rs 56.67
+Brd Leaf Mustard,KG,Rs 90.00,Rs 100.00,Rs 95.00
+Spinach Leaf,KG,Rs 120.00,Rs 130.00,Rs 126.67
+Cress Leaf,KG,Rs 120.00,Rs 130.00,Rs 126.67
+Mustard Leaf,KG,Rs 50.00,Rs 60.00,Rs 56.67
+Fenugreek Leaf,KG,Rs 120.00,Rs 130.00,Rs 126.67
+Onion Green,KG,Rs 50.00,Rs 60.00,Rs 56.67
+Mushroom(Kanya),KG,Rs 150.00,Rs 180.00,Rs 170.00
+Mushroom(Button),KG,Rs 250.00,Rs 300.00,Rs 282.50
+Asparagus,KG,Rs 350.00,Rs 450.00,Rs 400.00
+Neuro,KG,Rs 100.00,Rs 120.00,Rs 110.00
+Brocauli,KG,Rs 90.00,Rs 100.00,Rs 96.67
+Sugarbeet,KG,Rs 80.00,Rs 90.00,Rs 86.67
+Drumstick,KG,Rs 120.00,Rs 140.00,Rs 130.00
+Red Cabbbage,KG,Rs 40.00,Rs 50.00,Rs 46.67
+Lettuce,KG,Rs 70.00,Rs 80.00,Rs 76.67
+Knolkhol,KG,Rs 80.00,Rs 90.00,Rs 86.67
+Celery,KG,Rs 350.00,Rs 400.00,Rs 383.33
+Parseley,KG,Rs 350.00,Rs 400.00,Rs 375.00
+Fennel Leaf,KG,Rs 120.00,Rs 130.00,Rs 126.67
+Mint,KG,Rs 250.00,Rs 300.00,Rs 275.00
+Turnip A,KG,Rs 80.00,Rs 90.00,Rs 85.00
+Tamarind,KG,Rs 200.00,Rs 220.00,Rs 213.33
+Bamboo Shoot,KG,Rs 90.00,Rs 100.00,Rs 96.67
+Tofu,KG,Rs 90.00,Rs 100.00,Rs 96.67
+Gundruk,KG,Rs 200.00,Rs 250.00,Rs 225.00
+Apple(Jholey),KG,Rs 200.00,Rs 220.00,Rs 210.00
+Apple(Fuji),KG,Rs 250.00,Rs 300.00,Rs 275.00
+Banana,Per Dozen,Rs 120.00,Rs 140.00,Rs 130.00
+Lime,KG,Rs 350.00,Rs 400.00,Rs 383.33
+Pomegranate,KG,Rs 300.00,Rs 350.00,Rs 325.00
+Mango(Dushari),KG,Rs 280.00,Rs 300.00,Rs 290.00
+Mango(Calcutte),KG,Rs 220.00,Rs 250.00,Rs 235.00
+Grapes(Green),KG,Rs 140.00,Rs 160.00,Rs 150.00
+Grapes(Black),KG,Rs 280.00,Rs 300.00,Rs 293.33
+Orange(Indian),KG,Rs 140.00,Rs 150.00,Rs 145.00
+Water Melon(Green),KG,Rs 40.00,Rs 50.00,Rs 45.00
+Sweet Orange,KG,Rs 150.00,Rs 170.00,Rs 160.00
+Mandarin,KG,Rs 200.00,Rs 220.00,Rs 210.00
+Pineapple,1 Pc,Rs 150.00,Rs 180.00,Rs 165.00
+Cucumber(Local),KG,Rs 40.00,Rs 50.00,Rs 45.00
+Cucumber(Hybrid),KG,Rs 15.00,Rs 20.00,Rs 18.33
+Jack Fruit,KG,Rs 70.00,Rs 80.00,Rs 76.67
+Pear(Chinese),KG,Rs 220.00,Rs 250.00,Rs 235.00
+Papaya(Nepali),KG,Rs 50.00,Rs 60.00,Rs 56.67
+Papaya(Indian),KG,Rs 70.00,Rs 80.00,Rs 76.67
+Kiwi,KG,Rs 450.00,Rs 500.00,Rs 475.00
+Avocado,KG,Rs 450.00,Rs 500.00,Rs 475.00
+Ginger,KG,Rs 60.00,Rs 70.00,Rs 66.67
+Chilli Dry,KG,Rs 370.00,Rs 380.00,Rs 376.67
+Chilli Green,KG,Rs 50.00,Rs 60.00,Rs 56.67
+Chilli Green(Bullet),KG,Rs 50.00,Rs 60.00,Rs 56.67
+Chilli Green(Machhe),KG,Rs 50.00,Rs 60.00,Rs 56.67
+Chilli Green(Akbare),KG,Rs 250.00,Rs 300.00,Rs 275.00
+Capsicum,KG,Rs 70.00,Rs 80.00,Rs 76.00
+Garlic Green,KG,Rs 120.00,Rs 140.00,Rs 133.33
+Coriander Green,KG,Rs 350.00,Rs 400.00,Rs 383.33
+Garlic Dry Chinese,KG,Rs 170.00,Rs 180.00,Rs 176.67
+Garlic Dry Nepali,KG,Rs 100.00,Rs 120.00,Rs 110.00
+Clive Dry,KG,Rs 120.00,Rs 140.00,Rs 130.00
+Clive Green,KG,Rs 120.00,Rs 150.00,Rs 135.00
+Fish Fresh(Rahu),KG,Rs 300.00,Rs 320.00,Rs 310.00
+Fish Fresh(Bachuwa),KG,Rs 270.00,Rs 290.00,Rs 280.00
+Fish Fresh(Chhadi),KG,Rs 240.00,Rs 280.00,Rs 260.00
+Fish Fresh(Mungari),KG,Rs 270.00,Rs 290.00,Rs 280.00
