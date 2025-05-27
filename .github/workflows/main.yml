@@ -1,5 +1,9 @@
 name: test docker compose
 
+on: [push]
+
+
+
 jobs:
   compose-job:
     steps:
