@@ -1,3 +1,4 @@
-__pycache__
-.ipynb_checkpoints
-.veggies
+__pycache__/
+.ipynb_checkpoints/
+.veggies/
+
