@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import csv
+import os
 
 class Parser:
     def __init__(self,source, date):
@@ -9,10 +10,12 @@ class Parser:
 
     def table_extract(self):
         soup = self.soup
-        table = soup.find_all('table')[1]
+        table = soup.find('table', id="commodityPriceParticular")
         rows = table.find_all('tr')
 
-        with open(f"sample/{self.date}.csv", 'w',  newline='') as csvfile:
+        os.makedirs("data", exist_ok=True)
+
+        with open(f"data/{self.date}.csv", 'w',  newline='') as csvfile:
             csvwriter = csv.writer(csvfile, delimiter = ',')
             column = ['commodities', 'unit', 'minimum', 'maximum', 'average' ]
             csvwriter.writerow(column)

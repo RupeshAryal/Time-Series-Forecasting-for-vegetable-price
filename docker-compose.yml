@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  standalone-chrome:
+    image: selenium/standalone-chrome
+    ports:
+      - "4444:4444"
+    shm_size: "2gb"
+
+  scrapper:
+    image: rupesharyal/kalimati-price-scrapper
+    depends_on:
+      -  standalone-chrome
+    volumes:
+      -  ./test_data:/app/data
+    environment:
+      - SELENIUM_URL=http://standalone-chrome:4444/wd/hub
