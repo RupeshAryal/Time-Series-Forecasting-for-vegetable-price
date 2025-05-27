@@ -6,6 +6,7 @@ on: [push]
 
 jobs:
   compose-job:
+    runs-on : ubuntu-latest
     steps:
       - name: test compose version
         run: docker-compose --version
