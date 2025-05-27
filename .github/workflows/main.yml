@@ -1,0 +1,9 @@
+name: test docker compose
+
+jobs:
+  compose-job:
+    steps:
+      - name: test compose version
+        run: docker-compose --version
+
+        
