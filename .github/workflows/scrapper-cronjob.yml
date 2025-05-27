@@ -2,7 +2,7 @@ name: Scheduled Docker Compose Job
 
 on:
   schedule:
-    - cron: '55 18 * * *' 
+    - cron: '00 19 * * *' 
   workflow_dispatch:    
 
 jobs:
@@ -13,12 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install docker compose
-        run:  apt-get install docker-compose
-
       - name: Run Docker Compose
         run: |
-          docker-compose up -d
+          docker compose up -d
           sleep 30  # wait for containers to boot up
           docker-compose logs
           docker-compose down
