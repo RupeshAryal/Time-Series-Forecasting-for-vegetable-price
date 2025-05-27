@@ -1,4 +1,3 @@
-
 name: Scheduled Docker Compose Job
 
 on:
@@ -13,6 +12,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Install docker compose
+        run:  apt-get install docker-compose
 
       - name: Run Docker Compose
         run: |
