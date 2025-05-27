@@ -9,6 +9,6 @@ jobs:
     runs-on : ubuntu-latest
     steps:
       - name: test compose version
-        run: docker-compose --version
+        run: docker compose --version
 
         
