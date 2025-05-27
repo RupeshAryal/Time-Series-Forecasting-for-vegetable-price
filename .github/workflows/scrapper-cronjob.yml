@@ -2,7 +2,7 @@ name: Scheduled Docker Compose Job
 
 on:
   schedule:
-    - cron: '00 19 * * *' 
+    - cron: '06 19 * * *' 
   workflow_dispatch:    
 
 jobs:
@@ -17,5 +17,5 @@ jobs:
         run: |
           docker compose up -d
           sleep 30  # wait for containers to boot up
-          docker-compose logs
-          docker-compose down
+          docker compose logs
+          docker compose down
