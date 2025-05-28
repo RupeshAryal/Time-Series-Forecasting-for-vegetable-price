@@ -31,9 +31,8 @@ def test_selenium_server_available():
 
 
 test_selenium_server_available()
-s
 
-connection_string = os.getenv("AZURE_BLOB_CONNECTION_STRING")
+connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
 
 
 
@@ -75,7 +74,7 @@ else:
         
     interaction.driver.quit()
 
-    au = AzureUpload(os.getenv("AZURE_BLOB_CONNECTION_STRING"), "kalimati-price-container")
+    au = AzureUpload(os.getenv("AZURE_STORAGE_CONNECTION_STRING"), "kalimati-price-container")
 
     all_files = os.listdir("data")
 
