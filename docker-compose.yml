@@ -15,5 +15,5 @@ services:
       -  ./test_data:/app/data
     environment:
       - SELENIUM_URL=http://standalone-chrome:4444/wd/hub
-    env-file: 
-      - ".env"
+    env_file: 
+      - .env
