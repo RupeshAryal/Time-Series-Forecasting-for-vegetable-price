@@ -1,5 +1,6 @@
 from browser import BrowserInteraction
 from parser import Parser
+from load import AzureUpload
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -8,6 +9,13 @@ from urllib3.util import Retry
 
 from datetime import datetime, timedelta
 from tqdm import tqdm
+
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 
 def test_selenium_server_available():
 
@@ -23,6 +31,10 @@ def test_selenium_server_available():
 
 
 test_selenium_server_available()
+s
+
+connection_string = os.getenv("AZURE_BLOB_CONNECTION_STRING")
+
 
 
 # Define the start date
@@ -62,3 +74,12 @@ else:
     progress_bar.close()
         
     interaction.driver.quit()
+
+    au = AzureUpload(os.getenv("AZURE_BLOB_CONNECTION_STRING"), "kalimati-price-container")
+
+    all_files = os.listdir("data")
+
+    for f in all_files:
+        file_path = os.path.join("data", f)
+        au.upload_file(file_path)
+
