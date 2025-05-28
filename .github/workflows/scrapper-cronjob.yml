@@ -2,7 +2,7 @@ name: Scheduled Docker Compose Job
 
 on:
   schedule:
-    - cron: '00 21 * * *' 
+    - cron: '15 4 * * *' 
   workflow_dispatch:    
 
 jobs:
