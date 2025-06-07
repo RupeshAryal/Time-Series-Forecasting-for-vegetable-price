@@ -22,6 +22,6 @@ jobs:
         run: |
           docker compose -f docker-compose.weekly.yml up
           sleep 30  # wait for containers to boot up
-          docker compose -f docker-compose-weekly.yml logs
-          docker compose -f docker-compose-weekly.yml down
+          docker compose -f docker-compose.weekly.yml logs
+          docker compose -f docker-compose.weekly.yml down
     
