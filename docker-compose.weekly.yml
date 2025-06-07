@@ -1,0 +1,6 @@
+services:
+  kalimati-preprocessor:
+    image: rupesharyal/kalimati-preprocessor
+    env_file:
+      - .env
+

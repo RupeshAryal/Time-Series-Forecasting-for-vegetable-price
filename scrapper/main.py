@@ -17,22 +17,22 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def test_selenium_server_available():
+# def test_selenium_server_available():
 
-    session = requests.Session()
-    retry = Retry(connect=5, backoff_factor=0.5)
-    adapter = HTTPAdapter(max_retries=retry)
-    session.mount('http://', adapter)
-    session.mount('https://', adapter)
-    try:
-        session.get("http://standalone-chrome:4444/wd/hub")
-    except Exception as e:
-        print("failed to start a connection")
+#     session = requests.Session()
+#     retry = Retry(connect=5, backoff_factor=0.5)
+#     adapter = HTTPAdapter(max_retries=retry)
+#     session.mount('http://', adapter)
+#     session.mount('https://', adapter)
+#     try:
+#         session.get("http://standalone-chrome:4444/wd/hub")
+#     except Exception as e:
+#         print("failed to start a connection")
 
 
-test_selenium_server_available()
+# test_selenium_server_available()
 
-connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+# connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
 
 
 
@@ -41,7 +41,10 @@ with open('last_extract_date.txt', 'r') as file:
     last_updated_date = file.read()
     start_date = datetime.strptime(last_updated_date, '%m/%d/%Y')
 
-current_date = datetime.strftime(datetime.today(), '%m/%d/%Y')
+end_date = datetime.strptime("05/22/2025", "%m/%d/%Y")
+current_date = datetime.strftime(end_date, '%m/%d/%Y')
+
+# current_date = datetime.strftime(datetime.today(), '%m/%d/%Y')
 
 print(current_date, last_updated_date)
 
@@ -50,8 +53,8 @@ if current_date == last_updated_date:
 
 else:
     # Create a list to hold the dates
-    delta = end_date = datetime.today() - start_date
-
+    # delta = end_date = datetime.today() - start_date
+    delta = end_date - start_date
     date_list = [start_date + timedelta(days=i) for i in range(delta.days + 1)]
 
     progress_bar = tqdm(total=len(date_list), desc=f"Progress")
@@ -74,11 +77,11 @@ else:
         
     interaction.driver.quit()
 
-    au = AzureUpload(os.getenv("AZURE_STORAGE_CONNECTION_STRING"), "kalimati-price-container")
+    # au = AzureUpload(os.getenv("AZURE_STORAGE_CONNECTION_STRING"), "kalimati-price-container")
 
-    all_files = os.listdir("data")
+    # all_files = os.listdir("data")
 
-    for f in all_files:
-        file_path = os.path.join("data", f)
-        au.upload_file(file_path)
+    # for f in all_files:
+    #     file_path = os.path.join("data", f)
+    #     au.upload_file(file_path)
 

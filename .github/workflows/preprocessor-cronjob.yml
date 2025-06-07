@@ -1,0 +1,27 @@
+name: Kalimati-data-batch-preprocessing
+
+on:
+  schedule:
+    - cron: 
+  workflow_dispatch:
+
+jobs:
+  compose-job:
+    runs-on: ubuntu:latest
+
+    steps:
+      - name: checkout-repository
+      - uses: actions@checkoutv3
+
+      - name: Create .env file
+        run: |
+          echo "AZURE_STORAGE_CONNECTION_STRING=${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}" >> .env
+          echo "AZURE_CONTAINER_NAME=${{ secrets.AZURE_CONTAINER_NAME }}" >> .env
+
+      - name: Run Docker Compose
+        run: |
+          docker compose -f docker-compose.weekly.yml up
+          sleep 30  # wait for containers to boot up
+          docker compose -f docker-compose-weekly.yml logs
+          docker compose -f docker-compose-weekly.yml down
+    

@@ -20,9 +20,9 @@ options.add_argument("--no-sandbox")
 
 class BrowserInteraction:
     def __init__(self):
-        self.driver = webdriver.Remote(SELENIUM_URL , DesiredCapabilities.CHROME, options=options)
+        # self.driver = webdriver.Remote(SELENIUM_URL , DesiredCapabilities.CHROME, options=options)
 
-        # self.driver = webdriver.Chrome(options=options)
+        self.driver = webdriver.Chrome(options=options)
         self.search_button_xpath = '/html/body/div[2]/main/div/div/div/div[1]/div/div/div/div/form/div/div[2]/button'
         self.date_input_xpath = '//*[@id="datePricing"]'
         self.menu_bar_xpath = '/html/body/header/div[3]/div/div/nav/ul/li[7]/a'
