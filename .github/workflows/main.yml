@@ -28,4 +28,4 @@ jobs:
           context: ./preprocessor
           file: ./preprocessor/Dockerfile
           push: true
-          tags: yourdockerhubusername/kalimati-preprocessor:latest
+          tags: rupesharyal/kalimati-preprocessor:latest
